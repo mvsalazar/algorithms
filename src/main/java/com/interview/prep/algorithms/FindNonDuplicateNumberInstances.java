@@ -15,12 +15,8 @@ import java.util.Arrays;
  * Explanation: The first four elements after moving element will be [2, 3, 6, 9].
 */
 public class FindNonDuplicateNumberInstances {
-
-    /**
-     * Placeholder solution method. Adjust signature/return type as needed
-     * when you implement the actual algorithm.
-     */
     public static int solution(int[] arr) {
+        // First element is always unique by definition, this is why we start at index 1
         int nextNonDuplicate = 1;
         for(int i = 1; i < arr.length; i++) {
             if (arr[i] != arr[nextNonDuplicate - 1]) {

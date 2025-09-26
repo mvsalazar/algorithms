@@ -18,10 +18,8 @@ Practice data structures and algorithms in a lightweight Spring Boot project. Us
 - Install a JDK 17+ runtime (`java -version` should show 17). The Gradle Toolchain targets 17 and may auto-provision depending on your setup, but having JDK 17 installed locally is the most reliable.
 
 ## Clone The Repository
-Replace `<your-username>` with your GitHub handle (or use your repo URL):
-
 ```bash
-git clone https://github.com/<your-username>/algorithms.git
+git clone https://github.com/mvsalazar/algorithms.git
 cd algorithms
 ```
 

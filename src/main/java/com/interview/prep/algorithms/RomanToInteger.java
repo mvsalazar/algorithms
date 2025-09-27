@@ -56,6 +56,6 @@ public class RomanToInteger {
     }
 
     public static void main(String[] args) {
-        System.err.println(solution("DCXXI"));
+        System.out.println(solution("DCXXI"));
     }
 }

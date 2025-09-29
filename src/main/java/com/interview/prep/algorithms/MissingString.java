@@ -1,5 +1,16 @@
 package com.interview.prep.algorithms;
 
+/**
+ * I was presented with this problem in my latest interview. 
+ * I was given a string: "3x + 12 = 46" or "46 = 3x + 12" etc ..
+ * The string can have different operators +, -, * and /
+ * The job is to determine what x is
+ * 
+ * At first I misunderstood the problem. I took it as an algebraic equation, eg:
+ * "3x + 12 = 46" - I translated it to (3 * x) + 12 = 46 - and I even wrote that understanding down
+ * Turns out that was not the case, and I could have desiphered that from the title of the problem
+ * Rather it was 46 - 12 = 34, so in this case x = 4. 
+ */
 public class MissingString {
     public static String solution(String str) {
         // [3x, +, 12, =, 46]

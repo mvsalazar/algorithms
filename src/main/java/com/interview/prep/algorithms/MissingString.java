@@ -9,7 +9,11 @@ package com.interview.prep.algorithms;
  * At first I misunderstood the problem. I took it as an algebraic equation, eg:
  * "3x + 12 = 46" - I translated it to (3 * x) + 12 = 46 - and I even wrote that understanding down
  * Turns out that was not the case, and I could have desiphered that from the title of the problem
- * Rather it was 46 - 12 = 34, so in this case x = 4. 
+ * Rather it was 46 - 12 = 34, so in this case x = 4
+ * I got really close to completing this approach, the interview was at time, I was able to run 
+ * the code once, but there were some runtime errors, I got a brief look at it, and it looked like it 
+ * was some semicolons missing, but I did not get a chance to fix it. I decided to write my approach down
+ * and see if it would have worked, and it did. I just did some minor tweaks from what I originally wrote. 
  */
 public class MissingString {
     public static String solution(String str) {

@@ -1,8 +1,5 @@
 package com.interview.prep.algorithms;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.*;
 
 public class RemoveDuplicatesFromSortedArray {
